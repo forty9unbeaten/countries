@@ -1,68 +1,56 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Countries Dashboard with API Integration
 
-## Available Scripts
+![Design preview for the Countries Dashboard with color theme switcher coding challenge](./design/desktop-preview.pdf)
 
-In the project directory, you can run:
+## Welcome! 👋
 
-### `npm start`
+**To do this challenge, you need a good understanding of JavaScript.**
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## The challenge
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Your challenge is to integrate with the [REST Countries API](https://restcountries.eu) to pull country data and display it like in the designs.
 
-### `npm test`
+You can use any JavaScript framework/library on the front-end such as [Angular](https://angular.io/), [React](https://reactjs.org) or [JQuery](https://jquery.com/). You also have complete control over which packages you use to do things like make HTTP requests or style your project.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Your users should be able to:
 
-### `npm run build`
+- See all countries from the API on the homepage
+- Search for a country using an `input` field
+- Filter countries by region
+- Click on a country to see more detailed information on a separate page
+- Click through to the border countries on the detail page
+- Creative License granted to improve styling *(optional)*
+- Toggle the color scheme between light and dark mode *(optional)*
+- Add Pagination to limit countries to reduced counts per page with the option to see All *(optional)*
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Where to find everything
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Your task is to build out the project to the designs inside the `/design` folder.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+In this challenge, you will find mobile and desktop designs in light and dark mode color schemes for both pages.
 
-### `npm run eject`
+The designs are in JPG static format. This will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. This should help train your eye to perceive differences in spacings and sizes.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+There are no assets for this challenge, as the country flags will be pulled from the [REST Countries API](https://restcountries.eu) and you can use an icon font library for the icons.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+There is a `style-guide.md` file, which contains the information you'll need, such as color palette and fonts.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Building your project
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
 
-## Learn More
+1. Initialize your project as a public repository on [GitHub](https://github.com/). This will make it easier to share your code with the community if you need some help. If you're not sure how to do this, [have a read through of this Try Git resource](https://try.github.io/).
+2. Configure your repository to publish your code to a URL. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, but we recommend using [Vercel](https://vercel.com/). We've got more information about deploying your project with Vercel below.
+3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes that you could create to make reusable styles.
+4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
+5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
+6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+7. If you'd like to try making your project fully responsive, we'd recommend checking out [Sizzy](https://bit.ly/fm-sizzy). It's a great browser that makes it easy to view your site across multiple devices.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Deploying your project
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+As mentioned above, there are a number of ways to host your project for free. We recommend using [Vercel](https://vercel.com/) as it's an amazing service and extremely simple to get set up with. If you'd like to use Vercel, here are some steps to follow to get started:
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+1. [Sign up to Vercel](https://vercel.com/) and go through the onboarding flow, ensuring your GitHub account is connected by using their Vercel for GitHub integration.
+2. Connect your project to Vercel from the "Import project" page], using the "From Git Repository" button and selecting the project you want to deploy.
+3. Once connected, every time you `git push`, Vercel will create a new deployment and the deployment URL will be shown on your Dashboard. You will also receive an email for each deployment with the URL.

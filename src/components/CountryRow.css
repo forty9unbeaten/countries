@@ -1,0 +1,7 @@
+.CountryRow__row {
+    height: 70%;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
